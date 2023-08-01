@@ -1,0 +1,17 @@
+{
+  "name": "tailwindcss2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "tailwind.config.js",
+  "dependencies": {
+    "tailwindcss": "^3.1.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "build" : "tailwindcss -i ./css/input.css -o ./dist/style.css",
+    "watch" : "tailwindcss -i ./css/input.css -o ./dist/style.css --watch" 
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
